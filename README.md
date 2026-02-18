@@ -30,22 +30,22 @@ Designed for educational purposes and penetration testing labs.
 ```bash
 sudo python3 mac_changer.py -i eth0 -m 00:11:22:33:44:55
 
-
 ```
 Parameters
 
-Flag	Description
--i	Network interface (e.g., eth0, wlan0)
--m	New MAC address
+| Flag | Description                           |
+| ---- | ------------------------------------- |
+| `-i` | Network interface (e.g., eth0, wlan0) |
+| `-m` | New MAC address                       |
 
 
 🧠 Requirements
 
-Python 3
-Linux system
-Root privileges
-ifconfig installed
+- Python 3
+- Linux system
+- Root privileges
+- ifconfig installed
 
 🔍 Example Output
-[+] Changing MAC address for eth0 to 00:11:22:33:44:55
-[+] MAC address successfully changed
+- [+] Changing MAC address for eth0 to 00:11:22:33:44:55
+- [+] MAC address successfully changed
